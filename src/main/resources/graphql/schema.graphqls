@@ -1,0 +1,25 @@
+type Query {
+    # Obtener todas las alertas
+    getAllAlerts: [Alert!]!
+    # Obtener una alerta específica por ID
+    getAlertById(id: ID!): Alert
+}
+
+type Alert {
+    # Identificador único de la alerta
+    id: ID!
+    # Tipo de alerta (Ej: "Error", "Warning", etc.)
+    alertType: String!
+    # Persona responsable de la alerta
+    responsible: String!
+    # Prioridad de la alerta (Ej: "Alta", "Baja", etc.)
+    priority: String!
+    # Nombre del conductor asociado a la alerta
+    driver: String!
+    # Unidad generadora asociada a la alerta
+    generatingUnit: String!
+    # Estado actual de la alerta (Ej: "Abierta", "Cerrada", etc.)
+    state: String!
+    # Fecha y hora de la generación de la alerta
+    generationDate: String!
+}
