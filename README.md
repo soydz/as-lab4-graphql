@@ -12,4 +12,4 @@ El proyecto está dividido en dos carpetas principales, que contienen el código
 
 - **[Frontend](./frontend)**: Código fuente para la interfaz de usuario. Esta carpeta contiene el proyecto de frontend donde se consumen las alertas proporcionadas por el backend.
   
-- **[Backend](./backend)**: Código fuente para el servidor backend que maneja la lógica de negocio y consume los datos de una base de datos Postgres.
+- **[Backend](./as-lab4-panel-alerts)**: Código fuente para el servidor backend que maneja la lógica de negocio y consume los datos de una base de datos Postgres.
